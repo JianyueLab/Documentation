@@ -24,7 +24,7 @@ export default defineConfig({
     },
     
     editLink: {
-      pattern: 'https://github.com/JianyueLab/Documentation/edit/main/:path'
+      pattern: 'https://github.com/JianyueLab/Documentation/edit/master/:path'
     },
 
     search: {

@@ -27,5 +27,22 @@ export const zh_cn = defineConfig({
             pattern: 'https://github.com/JianyueLab/Documentation/edit/master/:path',
             text: '在 GitHub 修改此页面',
         },
+
+        docFooter: {
+            prev: '上一页',
+            next: '下一页'
+          },
+      
+        outline: {
+            label: '页面导航'
+        },
+    
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+                dateStyle: 'short',
+                timeStyle: 'medium'
+            }
+        },
     },
 })
